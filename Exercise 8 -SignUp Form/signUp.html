@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <style>
+        *{
+            margin: 0;
+        }
+        form{
+            /* text-align: center; */
+            background-color: bisque;
+            width: 50%;
+            height: 660px;
+            margin: 0 auto 0 auto;
+            padding: 10px;
+        }
+        input{
+            margin-bottom: 20px;
+            margin-left: 7px;
+        }
+        h2{
+            color: rgb(223, 152, 66);
+            margin: 15px;
+            text-align: center;
+            padding-bottom: 40px;
+        }
+        .container{
+            width: 50%;
+            margin: 0 auto 0 auto;
+        }
+        .btn{
+            width: 150px;
+            height: 35px;
+            background-color: white;
+            border: 0px;
+            cursor: pointer;
+            transition-duration: 0.2s;
+            margin-left:25% ;
+        }
+        .btn:hover{
+            background-color: bisque;
+            border: 2px solid white;
+            width: 170px;
+            color: rgb(253, 177, 85);
+            font-size: larger;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="">
+        <h2>Sign Up Here</h2>
+        <div class="container">
+            <label for="user">Username:</label>
+            <input type="text" id="user" placeholder="Username" required> <br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" placeholder="Password" required>  <br>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" placeholder="xyz@gmail.com" required>  <br>
+            <label for="num">Phone Number:</label>
+            <input type="number" id="num" placeholder="Phone number">  <br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob">   <br>
+            <input type="checkbox" id="check" required> <label for="check">I agree to the TOS</label> <br>
+            <button class="btn" type="submit">Sign Up</button>
+        </div>
+    </form>
+</body>
+</html>
