@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+        .btn{
+            width: 70px;
+            font-weight: 700;
+            height: 40px;
+            padding: 5px;
+            border: 1px solid rgb(207, 187, 187);
+            transition-duration: 0.2s;
+        }
+        .btn:hover{
+            background-color: rgb(182, 167, 167);
+            
+        }
+        .default:hover{
+            background-color: rgb(148, 144, 144);
+            border: 1px solid gray;
+        }
+        .primary{
+            background-color: blueviolet;
+            border: 1px solid blueviolet;
+            color: white;
+        }
+        .primary:hover{
+            background-color: rgb(102, 5, 192);
+        }
+        .accent{
+            background-color: blue;
+            border: 1px solid blue;
+            color: white;
+        }
+        .accent:hover{
+            background-color: rgb(4, 4, 187);
+        }
+        .danger{
+            background-color:rgb(224, 10, 10);
+            border: 1px solid rgb(224, 10, 10);
+            color: white;
+        }
+        .danger:hover{
+            background-color: rgb(247, 49, 49);
+        }
+        .large{
+            width: 90px;
+            height: 50px;
+        }
+        .small{
+            width: 50px;
+            height: 30px;
+        }
+        .pill{
+            border-radius: 20px;
+        }
+        .custom{
+            background: linear-gradient(90deg, #00a7e1 40%, blue);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" class="btn default">Default</button>
+    <button type="button" class="btn primary">Primary</button>
+    <button type="button" class="btn accent">Accent</button>
+    <button type="button" class="btn danger">Danger</button>
+    <button type="button" class="btn large">Large</button>
+    <button type="button" class="btn small">Small</button>
+    <button type="button" class="btn pill">Pill</button>
+    <button type="button" class="btn custom">Custom</button>
+</body>
+</html>
